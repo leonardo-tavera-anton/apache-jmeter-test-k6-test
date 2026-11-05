@@ -1,0 +1,1 @@
+k6 run -e VUS=50 --summary-export=resumen-500.json apf3-prueba.js
