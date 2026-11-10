@@ -1,0 +1,59 @@
+2026-11-09 21:26:42,817 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-09 21:26:43,006 INFO o.a.j.JMeter: Loading user properties from: C:\Users\leona\Downloads\jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2026-11-09 21:26:43,029 INFO o.a.j.JMeter: Loading system properties from: C:\Users\leona\Downloads\jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2026-11-09 21:26:43,030 INFO o.a.j.JMeter: Setting JMeter property: vus=1
+2026-11-09 21:26:43,094 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-09 21:26:43,095 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-09 21:26:43,095 INFO o.a.j.JMeter: java.version=1.8.0_511
+2026-11-09 21:26:43,095 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-11-09 21:26:43,095 INFO o.a.j.JMeter: os.name=Windows 11
+2026-11-09 21:26:43,096 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-09 21:26:43,097 INFO o.a.j.JMeter: os.version=10.0
+2026-11-09 21:26:43,098 INFO o.a.j.JMeter: file.encoding=Cp1252
+2026-11-09 21:26:43,098 INFO o.a.j.JMeter: java.awt.headless=true
+2026-11-09 21:26:43,098 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-09 21:26:43,100 INFO o.a.j.JMeter: Available Processors =4
+2026-11-09 21:26:43,135 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-09 21:26:43,137 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-09 21:26:43,137 INFO o.a.j.JMeter: JMeterHome=C:\Users\leona\Downloads\jmeter\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2026-11-09 21:26:43,138 INFO o.a.j.JMeter: user.dir  =C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter
+2026-11-09 21:26:43,144 INFO o.a.j.JMeter: PWD       =C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter
+2026-11-09 21:26:43,197 INFO o.a.j.JMeter: IP: 192.168.18.32 Name: negrito FullName: negrito
+2026-11-09 21:26:43,359 INFO o.a.j.s.FileServer: Default base='C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter'
+2026-11-09 21:26:43,388 INFO o.a.j.s.FileServer: Set new base='C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter\.'
+2026-11-09 21:26:55,032 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-09 21:26:55,268 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-09 21:26:55,323 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-09 21:26:55,373 INFO o.a.j.s.SaveService: Loading file: .\prueba.jmx
+2026-11-09 21:26:55,882 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-09 21:26:55,883 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-09 21:26:55,885 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-09 21:26:55,885 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-09 21:26:55,886 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-09 21:26:55,887 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-09 21:27:00,748 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-11-09 21:27:00,881 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-09 21:27:00,887 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-09 21:27:00,887 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-09 21:27:00,926 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-09 21:27:00,927 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-09 21:27:06,624 INFO o.a.j.JMeter: Running test (1794277626622)
+2026-11-09 21:27:07,096 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Usuarios
+2026-11-09 21:27:07,098 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Usuarios.
+2026-11-09 21:27:07,098 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-09 21:27:07,099 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=30 delayedStart=false
+2026-11-09 21:27:07,117 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-09 21:27:07,118 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-09 21:27:08,501 INFO o.a.j.t.JMeterThread: Thread started: Usuarios 1-1
+2026-11-09 21:27:09,174 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = negrito
+2026-11-09 21:27:09,782 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-09 21:27:09,789 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-09 21:27:09,789 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-09 21:27:09,789 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-09 21:27:09,790 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-09 21:27:11,286 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-11-09 21:27:11,321 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-11-09 21:27:11,323 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-11-09 21:27:15,146 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-11-09 21:27:15,160 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-11-09 21:27:15,160 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore

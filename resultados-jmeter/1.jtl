@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1794272639998,33053,GET Locales,500,Internal Server Error,Usuarios 1-1,text,false,,566,147,1,1,https://turimar-backend.onrender.com/api/v1/locales,33005,0,2663
+1794272673101,30333,GET Locales,500,Internal Server Error,Usuarios 1-1,text,false,,566,147,1,1,https://turimar-backend.onrender.com/api/v1/locales,30298,0,0
+1794272703474,30486,GET Locales,500,Internal Server Error,Usuarios 1-1,text,false,,566,147,1,1,https://turimar-backend.onrender.com/api/v1/locales,30478,0,235
+1794272734019,30259,GET Locales,500,Internal Server Error,Usuarios 1-1,text,false,,566,147,1,1,https://turimar-backend.onrender.com/api/v1/locales,30249,0,0

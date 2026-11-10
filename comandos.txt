@@ -1,1 +1,13 @@
 k6 run -e VUS=50 --summary-export=resumen-500.json apf3-prueba.js
+
+
+APACHE JMETER--
+
+PS C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter> Get-Content .\prueba.jmx -TotalCount 3
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.0">
+<hashTree>
+PS C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter> [xml]$documento = Get-Content .\prueba.jmx -Raw
+>> Write-Host "XML valido"
+XML valido
+PS C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter> 
