@@ -1,13 +1,30 @@
+//K6-TEST
+
+/EJECUCION PARA 50 VUS:
 k6 run -e VUS=50 --summary-export=resumen-500.json apf3-prueba.js
 
 
-APACHE JMETER--
+//APACHE JMETER TEST
 
-PS C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter> Get-Content .\prueba.jmx -TotalCount 3
-<?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.0">
-<hashTree>
-PS C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter> [xml]$documento = Get-Content .\prueba.jmx -Raw
->> Write-Host "XML valido"
-XML valido
-PS C:\Users\leona\OneDrive\Documentos\GitHub\k6-test\resultados-jmeter> 
+C:\Users\leona\Documents\GitHub\k6-test\resultados-jmeter
+cd "C:\Users\leona\Documents\GitHub\k6-test\resultados-jmeter"
+
+/PRUEBA DE 1 VUS:
+& "C:\JMeter\apache-jmeter-5.6.3\bin\jmeter.bat" -n -t ".\prueba.jmx" -Jvus=1 -l ".\1-nueva-pc.jtl"
+
+/REPORTE DE 1 VUS (CREACION DE CARPETA):
+& "C:\JMeter\apache-jmeter-5.6.3\bin\jmeter.bat" -g ".\1-nueva-pc.jtl" -o ".\reporte-1-nueva-pc"
+
+/VISUALIZACION DE REPORTE:
+Start-Process ".\reporte-1-nueva-pc\index.html"
+
+/LUEGO DE CADA PRUEBA:
+luego de probar comprobar en el backend utilizando
+curl.exe -i "https://turimar-backend.onrender.com/api/v1/locales"
+
+en caso se sature utilizar el manual deploy y darle a restart
+
+
+
+
+
